@@ -141,13 +141,18 @@ input{
     border-radius: 10px;
 }
 button{
+
+
     height: 50px;
-    background-color: ;
+    
     /* color:; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10px;
     margin: 2%;
     margin-left: 4%;
+}
+button:focus{
+    background-color: chartreuse;
 }
 .footer{
     margin-left: 20px;
